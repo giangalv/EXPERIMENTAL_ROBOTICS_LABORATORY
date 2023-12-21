@@ -208,7 +208,7 @@ This ROS2 node controls the camera joint attached to a vertical link that rotate
 
 First of all, you need to download the repository with the following command inside your workspace:
 
-    git clone https://github.com/claudioDema99/ExpLab-FirstAssignment
+    git clone https://github.com/giangalv/EXPERIMENTAL_ROBOTICS_LABORATORY/tree/main/ExpLab-FirstAssignment-main
 
 From the root directory of your ROS2 workspace run the command:
 
