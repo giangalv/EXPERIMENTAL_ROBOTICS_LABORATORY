@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>plansys2_assignment_pkg</name>
+  <version>0.0.4</version>
+
+  <description>ROS2 Planning System</description>
+
+  <maintainer email="s5433737@studenti.unige.it">Claudio Demaria</maintainer>
+
+  <license>Apache License, Version 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>python_cmake_module</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>rclcpp</depend>
+  <depend>plansys2_msgs</depend>
+  <depend>plansys2_executor</depend>
+  <depend>plansys2_support_py</depend>
+
+  <exec_depend>plansys2_bringup</exec_depend>
+  <exec_depend>plansys2_terminal</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>ros2_aruco_interfaces</exec_depend>
+  
+  <exec_depend>tf_transformations</exec_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,4 @@
+we have to implement two pddl actions:
+
+- action for reach the point: we simply send a goal to the action server (or server?) of the bug0 node (/reaching_goal, still have to define it customly), and it manages all the algorithm
+- action for rotate until aruco detected 

@@ -1,0 +1,25 @@
+> set instance m1 marker
+> set instance m2 marker
+> set instance m2 marker
+> set instance m3 marker
+> set instance m4 marker
+> set instance p position
+> set instance p1 position
+> set instance p2 position
+> set instance p3 position
+> set instance p4 position
+> set instance l logic
+> set predicate (at_robot p)
+> set predicate (at_marker m1 p1)
+> set predicate (at_marker m2 p2)
+> set predicate (at_marker m3 p3)
+> set predicate (at_marker m4 p4)
+> set predicate (connected_pos p p1)
+> set predicate (connected_pos p1 p2)
+> set predicate (connected_pos p2 p3)
+> set predicate (connected_pos p3 p4)
+> set predicate (connected_pos p4 p)
+> set predicate (order1 l)
+> set goal (and (reached m1) (reached m2) (reached m3) (reached m4) (at_robot p))
+> get plan
+> run
